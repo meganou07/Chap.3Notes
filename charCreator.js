@@ -43,7 +43,7 @@ character.name = readLine.question("Enter Character Name: ");
     console.log('Rolling CHA')
     character.charisma= rollStat(diceRolled);
     console.log(character)
-}
+}``
 
 function displayChar(char){
     console.log(`Name: ${char.name}`);
@@ -54,3 +54,6 @@ function displayChar(char){
     console.log(`WIS: ${char.wisdom}`);
     console.log(`CHA: ${char.charisma}`);
 }
+
+
+
